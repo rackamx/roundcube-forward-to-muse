@@ -8,6 +8,8 @@ Each forward is sent as its own email from your identity, with the original
 message attached as `.eml` (lossless, any content type), a copy saved to Sent,
 and the original flagged as forwarded.
 
+![Muse button in the Roundcube toolbar (Larry skin)](screenshot.png)
+
 ## Requirements
 
 - Roundcube 1.6+ (developed and tested on 1.7)
