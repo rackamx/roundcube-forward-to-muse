@@ -3,7 +3,6 @@
     "type": "roundcube-plugin",
     "description": "One-click toolbar button to forward messages to your Muse agent.",
     "license": "Unlicense",
-    "version": "1.0",
     "authors": [
         {
             "name": "Julien Lerouge",
@@ -13,7 +12,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "roundcube/plugin-installer": ">=0.1.6"
+        "roundcube/plugin-installer": "^0.3"
     },
     "autoload": {
         "classmap": [
