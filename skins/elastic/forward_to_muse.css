@@ -1,0 +1,14 @@
+/**
+ * Forward to Muse - Elastic skin styles
+ *
+ * Shows the Muse logo on the toolbar button instead of a font icon,
+ * following the same image-icon pattern Elastic itself uses.
+ */
+
+.menu a.forwardtomuse:before {
+    content: " ";
+    background-image: url("images/muse.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

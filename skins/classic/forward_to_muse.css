@@ -1,0 +1,14 @@
+/**
+ * Forward to Muse - Classic skin styles
+ *
+ * Classic toolbar buttons are icon-only: the label is pushed off-screen
+ * and the icon is a background image on the anchor.
+ */
+
+#messagetoolbar a.forwardtomuse {
+  text-indent: -5000px;
+  background-image: url(images/muse.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+}

@@ -1,0 +1,25 @@
+/**
+ * Forward to Muse - Larry skin styles
+ *
+ * Larry toolbar buttons show their icon as a background image on the
+ * anchor, above the label (same pattern as the bundled markasjunk skin).
+ */
+
+#messagetoolbar a.forwardtomuse {
+  background-image: url(images/muse.svg);
+  background-position: center 3px;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+}
+
+/**
+ * Settings section icon. Same selector shape as the bundled sections
+ * (#rcmrowgeneral, ...), which use a sprite; we use our own logo.
+ */
+
+#sections-table #rcmrowmuse .section {
+  background-image: url(images/muse.svg);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-size: 26px auto;
+}

@@ -1,0 +1,8 @@
+<?php
+
+// Global default address the "Muse" toolbar button forwards to.
+// Replace with your Muse agent's address; the placeholder below is
+// undeliverable and sending is refused until a real address is set.
+// Users can override it per-account under Settings -> Muse.
+// Copy to config.inc.php or set in the main Roundcube config to override.
+$config['forward_to_muse_recipient'] = 'muse@example.com';

@@ -1,0 +1,23 @@
+{
+    "name": "rackamx/forward_to_muse",
+    "type": "roundcube-plugin",
+    "description": "One-click toolbar button to forward messages to your Muse agent.",
+    "license": "Unlicense",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Julien Lerouge",
+            "email": "julien.lerouge@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "roundcube/plugin-installer": ">=0.1.6"
+    },
+    "autoload": {
+        "classmap": [
+            "forward_to_muse.php"
+        ]
+    }
+}
